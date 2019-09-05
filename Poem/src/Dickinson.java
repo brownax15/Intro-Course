@@ -7,7 +7,7 @@ public class Dickinson {
 		//Poem Name: Success is counted sweetest
 		//Author: Emily Dickinson
 		
-		
+		System.out.println("Success is " + "counted sweetest" + "\n\tEmily Dickinson");
 		System.out.println("");
 		System.out.println("Success is counted sweetest");
 		System.out.println("By those who ne'er succeed.");
