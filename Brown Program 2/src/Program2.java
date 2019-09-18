@@ -68,7 +68,7 @@ public class Program2 {
 			break;
 			
 		default:
-			//resultant = 
+			//resultant = (need to figure out how not to get an if else result)
 			System.out.println("You made an invalid choice.");
 		}
 		
