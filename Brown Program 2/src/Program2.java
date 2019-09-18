@@ -68,6 +68,7 @@ public class Program2 {
 			break;
 			
 		default:
+			//resultant = 
 			System.out.println("You made an invalid choice.");
 		}
 		
