@@ -1,7 +1,7 @@
 //Project Name: Program 2
 //Author: Allison Brown
 //Description: Using keyboard, menu, IF/ELSE, switch 
-//Last Modified: 17.9.19
+//Last Modified: 19.9.19
 //Version: 1.0
 
 //required scanner code for keyboard
@@ -82,9 +82,8 @@ public class Program2 {
 		}
 		else
 		{
-			System.out.println("\n" + resultant + " is less than " + number3 + ".");
+			System.out.println("\n" + resultant + " is not greater than " + number3 + ".'");
 		}
-		
 		
 	}
 
