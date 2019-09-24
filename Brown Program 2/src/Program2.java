@@ -68,7 +68,6 @@ public class Program2 {
 			break;
 			
 		default:
-			//resultant = (need to figure out how not to get an if else result)
 			System.out.println("You made an invalid choice.");
 		}
 		
@@ -82,7 +81,7 @@ public class Program2 {
 		}
 		else
 		{
-			System.out.println("\n" + resultant + " is not greater than " + number3 + ".'");
+			System.out.println("\n" + resultant + " is not greater than " + number3 + ".");
 		}
 		System.out.println("Thank you for using this basic calaculator.");
 	}
