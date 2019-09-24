@@ -1,7 +1,7 @@
 //Project Name: Program 2
 //Author: Allison Brown
 //Description: Using keyboard, menu, IF/ELSE, switch 
-//Last Modified: 19.9.19
+//Last Modified: 22.9.19
 //Version: 1.0
 
 //required scanner code for keyboard
@@ -84,7 +84,7 @@ public class Program2 {
 		{
 			System.out.println("\n" + resultant + " is not greater than " + number3 + ".'");
 		}
-		
+		System.out.println("Thank you for using this basic calaculator.");
 	}
 
 }
