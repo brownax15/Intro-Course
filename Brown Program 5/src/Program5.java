@@ -1,7 +1,7 @@
 //Project Name: Program 5
 //Author: Allison Brown
 //Description: Using methods (basic calculator)
-//Last Modified: 10.15.19
+//Last Modified: 10.21.19
 //Version: 1.0
 
 //import scanner
@@ -21,6 +21,7 @@ public class Program5 {
 		int number2 = 0;
 		int number3 = 0;
 		int menuChoice;
+		String choiceError;
 		
 		//display menu and ask for user input in do/while loop
 				do
@@ -60,7 +61,9 @@ public class Program5 {
 						System.out.println("Have a great day!");
 						break;
 					default:
-						System.out.println("That is an invalid choice. Please re-enter your choice.\n");	
+						choiceError = error();
+						System.out.println(choiceError);
+						//System.out.println("That is an invalid choice. Please re-enter your choice.\n");
 					}
 		
 				}while(menuChoice != 5);
@@ -106,4 +109,8 @@ public class Program5 {
 			System.out.println("Your new number is " + num3 + ".\n");
 		}
 
+		public static String error()
+		{
+			return("That is an invalid choice. Please re-enter your numbers and try again.\n");
+		}
 }
